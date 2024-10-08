@@ -1,0 +1,51 @@
+*, 
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #ffffffd9;
+	padding: 1.5em;
+	//box-shadow: 5px 5px 5px black;
+	border-bottom: 1px solid #e6e6e6;
+	backdrop-filter: blur(10px);
+}
+
+header h1 {
+	margin: 0;
+	color: black;
+	font-family: 'sans-serif';
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.projects {
+	margin-inline: auto;
+	max-inline-size: 1080px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: thin;
+}
+
+ul li {
+	background-color: grey;
+	padding: 1em;
+}
+
+a:hover {
+	color: lightblue;
+}
